@@ -57,7 +57,7 @@
 
   .container {
     width: 80%;
-    max-width: 350px;
+    max-width: 500px;
     margin: 0 auto;
     border: 1px solid black;
     flex-direction: column; 
@@ -82,11 +82,12 @@
 
   .main-picture{
     position: relative;
+    padding: 0.6rem;
   }
 
   .info{
     position: absolute;
-    bottom: -10px;
+    bottom: 0px;
     color: #fff;
     font-weight: bold;
     font-size: 1.1rem;
