@@ -57,12 +57,11 @@
 
   .container {
     width: 80%;
-    max-width: 500px;
+    max-width: 400px;
     margin: 0 auto;
     border: 1px solid black;
     flex-direction: column; 
     position: relative;
-    min-height: 100vh;
     display: flex;
     justify-content: space-around;
     border-radius: 10px;
