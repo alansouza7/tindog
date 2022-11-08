@@ -1,0 +1,134 @@
+:root{
+  --green: #cbf3f0;
+  --red: #ff8fa3;
+  --off-white: #f2e9e4;
+  --dark-blue: #22223b;
+}
+
+
+/* Box sizing rules */
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  
+  ul[role='list'],
+  ol[role='list'] {
+    list-style: none;
+  }
+  
+  /* Set core root defaults */
+  html{
+    scroll-behavior: smooth;
+    font-size: 62,5%;
+  }
+  
+  /* Set core body defaults */
+  body {
+    min-height: 100vh;
+    text-rendering: optimizeSpeed;
+    line-height: 1.5;
+    background-color: var(--off-white);
+  }
+  
+  /* A elements that don't have a class get default styles */
+  a:not([class]) {
+    text-decoration-skip-ink: auto;
+  }
+  
+  /* Make images easier to work with */
+  img,
+  picture {
+    max-width: 100%;
+    display: block;
+  }
+  
+  /* Inherit fonts for inputs and buttons */
+  input,
+  button,
+  textarea,
+  select {
+    font: inherit;
+  }
+  
+
+  /*STYLES*/
+
+  .container {
+    width: 80%;
+    max-width: 350px;
+    margin: 0 auto;
+    border: 1px solid black;
+    flex-direction: column; 
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 10px;
+    background-color: var(--dark-blue);
+  }
+
+  .logo{
+    width: 50px;
+  }
+
+  .header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+  }
+
+  .main-picture{
+    position: relative;
+  }
+
+  .info{
+    position: absolute;
+    bottom: -10px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.1rem;
+    padding: 1rem;
+  }
+
+  .footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin: 5px 0;
+  }
+
+  .footer-icons{
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .badges{
+    transform: rotate(-35deg);
+    width: 200px;
+  }
+
+
+
+  .red:hover{
+    background-color: var(--red);
+  }
+
+  .green:hover{
+    background-color: var(--green);
+  }
+
+  #like-badge,
+  #nope-badge{
+    position: absolute;
+    top: 135px;
+    left: 10px;
+  }
+
