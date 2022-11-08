@@ -30,6 +30,9 @@
     text-rendering: optimizeSpeed;
     line-height: 1.5;
     background-color: var(--off-white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   
   /* A elements that don't have a class get default styles */
